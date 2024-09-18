@@ -1,0 +1,70 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+/*normalizacion*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+section{
+    background-color: #2f1c6a;
+    /*padding: 100px;  ----------no va*/
+    display:flex;     
+    flex-direction: column;  /*cambiamos row*/
+    justify-content: center;
+    align-items: center; /*se agrega*/
+    /*gap: 24px;                 ------ no es tan necesario*/
+    width: 100vw;   /*medidas del fondo*/
+    height: 100vh;  /*medidas del fondo*/
+}
+
+section .card{      
+    /*background-color: #5025D1;                                         se saca y se pasa a la reference*/
+    color: #ffff;
+    /*margin: 0px 0px 24px;*/
+    gap: 24px;    /*     se agrega*/
+    /*padding: 24px;                                                     se scaca y se agega en al reference*/
+    display: flex;
+    flex-direction: row;                     /*se cambia columna*/
+    /*justify-content: space-between;   se saca*/
+    /*border-radius: 10px;                                               se saca y se pasa a la reference*/
+}
+section .card .card-reference{   /* se agrega las medidas*/
+    width: 340px;
+    height: 270px;
+    padding: 32px;
+    background-color: #5025D1;
+    border-radius: 6px;
+    display: flex;                  /*se agrega*/
+    flex-direction: column;         /*se agrega*/
+    justify-content: space-between;  /*se agrega*/
+    gap: 10px;                      /*se agrega*/
+}
+section .card .card-reference img{
+    width: 220px;
+    /*font: 16px;         no va*/
+}
+section .card .card-reference p{
+    line-height: 24px;
+    margin-top: 10px;
+    font-size: 16px;                 /*se agrega*/
+}
+
+section .card .card-review-footer {
+    /*margin: 16px 0px 0px;  no va*/
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+    
+}
+
+/*section .card .card-review-footer .i{  no va
+    color: #ffff;
+}  */
+
+section .card .card-review-footer .bi-chevron-right{
+    color: #ffff;
+}

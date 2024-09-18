@@ -1,0 +1,62 @@
+.caja-especial{
+    box-shadow: 0px 0px 5px 5px rgba(4, 0, 248, 0.356);
+    margin-top: 2%;
+    margin-left: 1%;
+    margin-right: 80%;;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    border-radius: 5px;
+}
+
+
+/*header{
+    background-color: blue;
+    margin-top: 40px;
+    padding: 40px 20px;
+}*/
+
+
+header input{
+    padding: 10px 80px 10px 80px ;
+    border-radius: 5px;
+    /*corregido error de margin no hace falta 
+    poner si pones un 0 auto 
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;*/
+    color: rgba(0, 0, 255, 0.795);
+    border-color: rgba(0, 0, 255, 0.685);
+    margin:0 auto;
+}
+
+.caja-1{
+    text-decoration-line: line-through; /*linea que corta el texto*/
+    display: inline-block;
+}
+.caja-2{
+    color: black;
+    background-color: rgba(0, 47, 255, 0.329);
+    padding: 10px 10px;
+    border-radius: 20px;
+    display: inline-block;
+    
+    
+
+}
+.caja-3{
+    padding-top: 5%;
+    color: blue ;
+    display: flex;
+}
+
+.caja-3 p{
+    font-size: 30px;   /*tamaño del texto*/
+    display:contents;
+    
+}
+
+.mensaje{
+    padding-top: 20px;
+    
+}

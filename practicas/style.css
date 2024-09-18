@@ -1,0 +1,36 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+/*normalizacion*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+.container{
+    
+    background-color: #673de6;
+    display: flex;
+}
+.cube{
+    
+    padding: 32px;
+    background-color: #5025d1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.review-img{
+
+}
+
+.content-text{
+    color: #ffff;
+}
+
+.button-review{
+    color: #ffff;
+
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Cuando escribo style le indico a la pagina que el codigo debe interpretarse como CSS */
+
+        /* CSS es un lenguaje con selectores */
+        /* selector de elementos */
+        /* "color" color del texto,  "background-color" fondo del texto  y  "front-size" tamaño del texto*/
+        h2{
+            color: #7c16e2;         
+            background-color: rgb(248, 135, 7);
+            font-size: 105px;
+        }
+        /* Selector de clase */   
+        .titulo-especial{
+            color: brown;
+            background-color: rgb(255, 255, 255);
+            font-size: 35px;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Estilo en linea 😫MALA PRACTICA -->
+    <h1 style="color: red; background-color: green;">Hola mundo</h1>
+    <h1 style="color: red;">Hola mundo</h1>
+    <h1 style="color: rgb(182, 45, 45);">Hola mundo</h1>
+
+    <h2>Hola soy un h2</h2>
+    <h2 class="titulo-especial">Hola soy un h2</h2>
+    <h2 class="titulo-especial">Hola soy un h2</h2>
+    <h2>Hola soy un h2</h2>
+</body>
+</html>
